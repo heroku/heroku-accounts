@@ -4,7 +4,7 @@ Helps use multiple accounts on Heroku.
 
 ## Installation
 
-    $ heroku plugins:install git://github.com/ddollar/heroku-accounts.git
+    $ heroku plugins:install https://github.com/heroku/heroku-accounts.git
 
 ## Usage
 
@@ -15,35 +15,14 @@ To add accounts:
     Email: david@heroku.com
     Password: ******
 
-    Add the following to your ~/.ssh/config
+To switch to a different account:
 
-    Host heroku.personal
-      HostName heroku.com
-      IdentityFile /PATH/TO/PRIVATE/KEY
-      IdentitiesOnly yes
-
-Or you can choose a fully-automated approach:
-
-    $ heroku accounts:add work --auto
-    Enter your Heroku credentials.
-    Email: work@example.org
-    Password: ******
-    Generating new SSH key
-    Generating public/private rsa key pair.
-    Your identification has been saved in ~/.ssh/identity.heroku.work.
-    Your public key has been saved in ~/.ssh/identity.heroku.work.pub.
-    Adding entry to ~/.ssh/config
-    Adding public key to Heroku account: work@example.org
-
-To switch an app to a different account:
-
-    # in project root
-    heroku accounts:set personal
+    $ heroku accounts:set personal
 
 To list accounts:
 
     $ heroku accounts
-    personal
+    * personal
     work
 
 To remove an account:
@@ -51,16 +30,8 @@ To remove an account:
     $ heroku accounts:remove personal
     Account removed: personal
 
-Set a machine-wide default account:
+## Notes
 
-    $ heroku accounts:default personal
+This plugin is a fork of https://github.com/ddollar/heroku-accounts. The previous version did not support http-git which is now the Heroku default.
 
-To clone a git repository from Heroku, change 'heroku.com' to the Host of the desired account defined in your .ssh/config:
-
-    $ git clone git@heroku.work:repository.git
-
-If you want to switch the account for an app:
-
-    $ heroku accounts:set work
-
-This also changes the URL of the git origin `heroku` to make sure you're using the correct SSH host.
+This plugin will be officially supported and maintained by Heroku.
