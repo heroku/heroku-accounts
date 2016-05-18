@@ -1,0 +1,10 @@
+{
+  "name": "heroku-accounts",
+  "license": "ISC",
+  "dependencies": {
+    "co": "4.6.0",
+    "heroku-cli-util": "5.10.12",
+    "netrc": "0.1.4",
+    "yamljs": "0.2.7"
+  }
+}
