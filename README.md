@@ -4,7 +4,7 @@ Helps use multiple accounts on Heroku.
 
 ## Installation
 
-    $ heroku plugins:install https://github.com/heroku/heroku-accounts.git
+    $ heroku plugins:install heroku-accounts
 
 ## Usage
 
@@ -29,9 +29,3 @@ To remove an account:
 
     $ heroku accounts:remove personal
     Account removed: personal
-
-## Notes
-
-This plugin is a fork of https://github.com/ddollar/heroku-accounts. The previous version did not support http-git which is now the Heroku default.
-
-This plugin will be officially supported and maintained by Heroku.
