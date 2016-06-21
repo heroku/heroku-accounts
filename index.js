@@ -7,5 +7,7 @@ exports.topic = {
 
 exports.commands = [
   require('./commands'),
-  require('./commands/add')
+  require('./commands/add'),
+  require('./commands/remove'),
+  require('./commands/set')
 ]
