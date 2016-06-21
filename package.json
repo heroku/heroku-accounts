@@ -1,6 +1,6 @@
 {
   "name": "heroku-accounts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "ISC",
   "dependencies": {
     "co": "4.6.0",
