@@ -6,5 +6,6 @@ exports.topic = {
 }
 
 exports.commands = [
-  require('./commands/index.js')
+  require('./commands'),
+  require('./commands/add')
 ]
