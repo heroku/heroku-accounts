@@ -1,6 +1,6 @@
 {
   "name": "heroku-accounts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "ISC",
   "repository": "https://github.com/heroku/heroku-accounts",
   "dependencies": {
