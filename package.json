@@ -1,13 +1,27 @@
 {
   "name": "heroku-accounts",
+  "description": "manage multiple heroku accounts",
   "version": "1.0.3",
-  "license": "ISC",
-  "repository": "https://github.com/heroku/heroku-accounts",
+  "author": "Jeff Dickey @dickeyxxx",
+  "bugs": "https://github.com/heroku/heroku-accounts/issues",
   "dependencies": {
     "co": "4.6.0",
     "heroku-cli-util": "6.0.13",
     "mkdirp": "0.5.1",
     "netrc": "0.1.4",
     "yamljs": "0.2.7"
+  },
+  "devDependencies": {
+    "standard": "7.1.2"
+  },
+  "homepage": "https://github.com/heroku/heroku-accounts",
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": "https://github.com/heroku/heroku-accounts",
+  "scripts": {
+    "test": "standard"
   }
 }

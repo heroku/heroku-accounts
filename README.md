@@ -1,5 +1,7 @@
 # Heroku Accounts
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 Helps use multiple accounts on Heroku.
 
 ## Installation
