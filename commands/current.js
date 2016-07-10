@@ -5,7 +5,7 @@ const co = require('co')
 const accounts = require('../lib/accounts')
 
 function * run (context, heroku) {
-  var account = accounts.current();
+  var account = accounts.current()
   if (account) {
     cli.log(`${account}`)
   }
