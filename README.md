@@ -27,6 +27,11 @@ To list accounts:
     * personal
     work
 
+To find current account:
+
+    $ heroku accounts:current
+    personal
+
 To remove an account:
 
     $ heroku accounts:remove personal
