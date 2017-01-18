@@ -11,13 +11,14 @@ function * run (context, heroku) {
     cli.exit(1)
   }
 
-  let auth = yield cli.login()
-  accounts.add(name, auth.user.email, auth.access_token.token)
+  let auth = yield cli.login({sso: context.flags.sso})
+  accounts.add(name, auth.email, auth.token)
 }
 
 module.exports = {
   topic: 'accounts',
   command: 'add',
   args: [{name: 'name'}],
+  flags: [{name: 'sso', description: 'login for enterprise users under SSO'}],
   run: cli.command(co.wrap(run))
 }
