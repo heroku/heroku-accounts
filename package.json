@@ -6,7 +6,7 @@
   "bugs": "https://github.com/heroku/heroku-accounts/issues",
   "dependencies": {
     "co": "4.6.0",
-    "heroku-cli-util": "6.0.13",
+    "heroku-cli-util": "6.1.1",
     "mkdirp": "0.5.1",
     "netrc": "0.1.4",
     "yamljs": "0.2.7"
