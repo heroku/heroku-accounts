@@ -17,6 +17,13 @@ To add accounts:
     Email: david@heroku.com
     Password: ******
 
+To add single sign-on (SSO) accounts:
+
+    $ heroku accounts:add work --sso
+    Enter your organization name: my-company-name
+    Opening browser for login... done
+    Enter your access token (typing will be hidden): **********************************
+
 To switch to a different account:
 
     $ heroku accounts:set personal
