@@ -8,6 +8,8 @@ function * run (context, heroku) {
   var account = accounts.current()
   if (account) {
     cli.log(`${account}`)
+  } else {
+    cli.log('no account is set')
   }
 }
 
