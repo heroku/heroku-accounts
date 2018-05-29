@@ -4,6 +4,11 @@
   "version": "1.1.5",
   "author": "Jeff Dickey @dickeyxxx",
   "bugs": "https://github.com/heroku/heroku-accounts/issues",
+  "files": [
+    "/index.js",
+    "/commands",
+    "/lib"
+  ],
   "dependencies": {
     "co": "4.6.0",
     "heroku-cli-util": "^6.2.7",
