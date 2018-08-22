@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "co": "4.6.0",
-    "heroku-cli-util": "^6.2.7",
+    "heroku-cli-util": "^8.0.10",
     "mkdirp": "0.5.1",
     "netrc": "0.1.4",
     "yamljs": "^0.3.0"

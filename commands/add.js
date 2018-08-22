@@ -11,7 +11,7 @@ function * run (context, heroku) {
     cli.exit(1)
   }
 
-  let auth = yield cli.login({sso: context.flags.sso})
+  let auth = yield cli.login({sso: context.flags.sso, skipLogout: true})
   accounts.add(name, auth.email, auth.token)
 }
 
