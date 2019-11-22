@@ -6,7 +6,7 @@ Helps use multiple accounts on Heroku.
 
 ## Installation
 
-    $ heroku plugins:install heroku-accounts
+    $ heroku plugins:install https://github.com/icheko/heroku-accounts
 
 ## Usage
 
