@@ -39,6 +39,15 @@ To find current account:
     $ heroku accounts:current
     personal
 
+To print account api token:
+
+    $ heroku accounts:token personal
+    00000000-0000-0000-0000-000000000000
+
+To quickly set the HEROKU_API_KEY environment variable:
+
+    $ heroku accounts:token personal --bash
+
 To remove an account:
 
     $ heroku accounts:remove personal
