@@ -10,5 +10,6 @@ exports.commands = [
   require('./commands/add'),
   require('./commands/current'),
   require('./commands/remove'),
-  require('./commands/set')
+  require('./commands/set'),
+  require('./commands/token')
 ]
