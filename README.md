@@ -17,6 +17,8 @@ To add accounts:
     Email: david@heroku.com
     Password: ******
 
+> For accounts with 2FA enabled, generate and use an API key instead of your password
+
 To add single sign-on (SSO) accounts:
 
     $ heroku accounts:add work --sso
