@@ -5,7 +5,7 @@ const co = require('co')
 const accounts = require('../lib/accounts')
 
 function * run (context, heroku) {
-  cli.warn('This command is now available as part of the Heroku CLI and this plugin has been archived. Please uninstall this plugin by running `heroku plugins:uninstall @heroku-cli/heroku-accounts`.')
+  cli.warn('This command is now available as part of the Heroku CLI. Uninstall this archived plugin by running `heroku plugins:uninstall @heroku-cli/heroku-accounts`.')
 
   const { name } = context.args
   if (!accounts.list().find(a => a.name === name)) {
