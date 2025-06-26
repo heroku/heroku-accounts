@@ -10,6 +10,7 @@
     "/lib"
   ],
   "dependencies": {
+    "@heroku-cli/color": "^2.0.4",
     "co": "4.6.0",
     "heroku-cli-util": "^8.0.12",
     "netrc": "0.1.4",

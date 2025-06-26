@@ -2,6 +2,8 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
+**NOTE**: This plugin has been archived and is no longer maintained.
+
 Helps use multiple accounts on Heroku.
 
 ## Installation
