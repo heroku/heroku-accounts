@@ -15,7 +15,7 @@ jobs:
         os: [ ubuntu-24.04, pub-hk-ubuntu-24.04-arm-small ]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
